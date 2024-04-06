@@ -321,6 +321,10 @@ header .btns .second-btn a {
 .gallery .items .item .item-img img {
   width: 100%;
   display: block;
+  transition: transform 1s;
+}
+.gallery .items .item:hover img {
+  transform: scale(1.2);
 }
 .gallery .items .item {
   margin: 20px;
@@ -655,9 +659,6 @@ footer .in-touch .items .item .icon i {
   header .header-text {
     padding: 0 85px;
   }
-  header .btns {
-    justify-content: start;
-  }
   .chefs .items {
     display: flex;
     flex-wrap: wrap;
@@ -746,12 +747,16 @@ footer .in-touch .items .item .icon i {
   }
   header .btns {
     padding: 20px 0;
+    justify-content: start;
   }
   header .btns .first-button {
     border-radius: 0 20px 20px;
   }
   .chefs .items .item {
     width: calc((100% / 3) - 40px);
+  }
+  .gallery .items {
+    height: 900px;
   }
   .gallery .items .item {
     width: calc((100% / 3) - 20px);
