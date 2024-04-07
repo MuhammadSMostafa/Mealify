@@ -756,7 +756,10 @@ footer .in-touch .items .item .icon i {
     width: calc((100% / 3) - 40px);
   }
   .gallery .items {
-    height: 900px;
+    height: 1100px;
+  }
+  .gallery .items .burger {
+    order: 2;
   }
   .gallery .items .item {
     width: calc((100% / 3) - 20px);
@@ -782,9 +785,6 @@ footer .in-touch .items .item .icon i {
   .gallery .items {
     margin: 0 90px;
     height: 1200px;
-  }
-  .gallery .burger {
-    order: 2;
   }
   .contact iframe {
     aspect-ratio: 3.5/1;
